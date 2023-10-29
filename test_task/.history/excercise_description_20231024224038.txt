@@ -1,0 +1,2 @@
+W folderze znajdują się przykładowe logi zczytane z urządzeń. 
+Każdy log jest zapisany w pliku json którego nazwa jest datą stworzenia logu.

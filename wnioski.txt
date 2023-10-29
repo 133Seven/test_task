@@ -1,0 +1,5 @@
+Wnioski z analizowanych logów w excelu:
+- pojawiają się logi, w których nie ma numeru pokoju. Te logi są zwykle aktualizacjami do już istniejącego loga z numerem pokoju. Można je powiązać przez short_uuid.
+- logi bez opisu żadnego błędu można uznać za pokoje bez problemu
+- logi różnią się od siebie kolejnością ostatnich 3 kolumn: voltage_state, temp, broker_connection
+- pojawiają się logi, które mają różny pokój, ale te same short_uuid, co może świadczyć o jakimś błedzie w pozyskaniu loga
