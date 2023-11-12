@@ -1,0 +1,6 @@
+Wnioski z wersji poprawionej:
+- poprawiona kolejność kolumn z logów (voltage_state, temp, broker_connection), żeby wszystkie były pod sobą
+- logi, które mają ten sam pokój wpisany, są widoczne pod sobą. W skrypcie te pokoje są liczone jako duplikaty i wypisane w konsoli jako pokoje, które trzeba zweryfikować (Jest ich dosyć dużo, w logach z pojedynczych wyjazdów powinno być mniej duplikatów co zwiększy czytelność)
+- pokoje, które nie mają wpisanego numeru pokoju traktowane są jako update'y, wyświetlane są pod logami z pokoju, w którym pokrywa się short_uuid
+- pokoje, które posiadają tylko jeden log z danym numerem pokoju i nie mają wpisanego opisu żadnego z błędów rozważam jako prawdiłowe i wypisuje numery tych pokoi w konsoli
+- w pozstałych pokojach należy przyjąć, że opisany jest jakiś błąd
